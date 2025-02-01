@@ -1,0 +1,82 @@
+h1{
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+hr{
+    margin:0 10px;
+    border: 1px dashed rgb(241, 124, 220);
+    width: 40%;
+    display: inline-block;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 230, 241);
+    color: darkslategrey;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    font-weight: 700;
+    color: rgb(106, 80, 101);
+}
+p,a{
+    font-weight: 400;
+}
+a{
+    color:fuchsia;
+    text-decoration:wavy;
+    display: inline-block;
+    margin: 5px 0;
+}
+a:hover{
+    color: rgb(164, 18, 86);
+}
+header,footer{
+    background: linear-gradient(to right, rgb(216, 14, 235),rgb(245, 46, 152),rgb(218, 39, 227));
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+.icon-link{
+    display:inline-block;
+    margin:0 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+    color: fuchsia;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+}
+.icon-link:hover{
+    transform: scale(1.1);
+    color: rgb(114, 34, 139);
+}
+ul{
+    list-style-type:none;
+    padding: 0;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    background: rgb(240, 226, 255);
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(252, 80, 198);
+    color:rgb(122, 0, 55)
+}
+.fas, .fab{
+    margin-right: 1px;
+    color: inherit;
+}
+img{
+    box-shadow:0 5px 15px rgb(39, 33, 33);
+    object-fit:fill;
+    border-radius: 50%;
+    height: 240px;
+    width: 200px;
+    margin: 0 5px;
+}
